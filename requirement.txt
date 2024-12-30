@@ -1,0 +1,27 @@
+# Playwright
+playwright==1.41.2
+pytest-playwright==0.4.3
+
+# LLM APIs
+openai==1.12.0
+anthropic==0.7.7
+
+# HTTP and Utils
+requests==2.31.0
+python-dotenv==1.0.0
+fake-useragent==1.4.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Logging and Utils
+python-json-logger==2.0.7
+loguru==0.7.2
+
+# Date/Time
+pytz==2024.1
+
+# HTML Processing
+beautifulsoup4==4.12.2
+lxml==5.1.0
