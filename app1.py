@@ -39,20 +39,11 @@ job_spec = '''
 
 # steps = json.loads(job_spec)
 # execute_steps(steps)
-config = {
-    "api_key": "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",
-    "model": "gpt-3.5-turbo"
-}
+
 from openai import OpenAI
 from dotenv import load_dotenv
-load_dotenv()
-config = {
-    "api_key": "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",
-    "model": "gpt-3.5-turbo"
-}
-client = OpenAI(
-    api_key=config["api_key"]
-)
+
+
 
 # completion = client.chat.completions.create(
 #     model="gpt-4o-mini",
